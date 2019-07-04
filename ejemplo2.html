@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Tree</title>
+</head>
+<body>
+    <h2>Testing</h2>
+
+    <p>Welcome to <i>JavaScript</i> ...</p>
+    
+    <input type="button" value="ver h3" onclick="c()" />
+
+    <script>
+        function c(){
+        cualquier = document.createElement("h3");
+        cualquier_text = document.createTextNode("cualquier cosa ahi");
+        cualquier.appendChild(cualquier_text);
+        document.body.appendChild(cualquier);
+        }
+    </script>
+
+
+</body>
+</html>
